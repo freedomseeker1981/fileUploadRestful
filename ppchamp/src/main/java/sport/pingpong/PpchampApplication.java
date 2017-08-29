@@ -29,6 +29,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @ComponentScan(basePackages={"sport.pingpong.controllers"})
 @EnableJpaRepositories(basePackages ={ "sport.pingpong.DAO","sport.pingpong.service"})
 @EntityScan(basePackages ={ "sport.pingpong.domain"})*/
+
+// ppchamp second
 @SpringBootApplication
 public class PpchampApplication {
 
